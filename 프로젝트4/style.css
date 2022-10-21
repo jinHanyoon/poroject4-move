@@ -1,0 +1,632 @@
+*{margin: 0; padding: 0;
+    font-family: sans-serif;
+font-weight: 600;}
+ul,li{list-style: none;
+   }
+a{text-decoration: none;}
+section{width: 100%; 
+       height: 700px; 
+       
+   }
+
+#wrap{width: 100%;}
+header{width: 100%; height: 80px;  }
+.header_in{width: 1200px; margin: 0 auto;
+     height: 80px;
+            }
+.header_in .logo{width: 150px; height: 80px;
+     background-color: white; float: left;}
+nav{width: 900px;
+    height: 80px; float: left;}
+nav ul{ width: 100%; height: 
+    80px; text-align: center;  }    
+nav li{width: 150px; float: left; border-radius: 5px; 
+        line-height: 80px;}
+nav li a{ font-size: 14px;  color: #606060;}
+nav li.on{background-color: #569aff;
+        transition: 1s all;} 
+nav li a.on{color: #f8f8f8;
+        transition: 1s all;
+}       
+.login{width: 100%;}
+.login .help{width: 100%; height: 30px;}
+.login .help a{font-size: 10px;
+    color: #60606080;
+ }
+.login .help2{width: 100%; height: 50px;}
+
+.login a{margin-left: 5px; font-size: 14px;
+      color: #606060;}
+
+
+
+
+.main01{width: 1200px; margin: 0 auto; text-align: center; 
+    height: 400px;
+    }
+.main01 .con01{height: 150px; }
+.main01 .con01 .conBox1{margin: 0 auto; width: 600px;}
+.main01 .conBox1  li img{width: 80px;
+     height: 50px;}
+.main01 .conBox1 li{ float: left; cursor: pointer; 
+     margin-top: 20px; margin-left: 5px;
+    width: 110px; height: 80px;  border-radius: 20px;
+                 }
+.main01 .conBox1 li.on{background-color: #569aff; transition: 1s all;}                 
+.main01 .conBox1 li a{font-size: 14px;  color: #606060;} 
+.main01 .conBox1 li a.on{ transition: all 0.5s;
+    color: #f8f8f8;
+    ;}                
+.con2{ height: 100px;}
+.con2 li{float: left; margin-left: 20px;
+            cursor: pointer;}
+.conInfo div{padding: 10px;}            
+.con2 .con2_text{width: 210px; height: 80px;
+    border-radius: 10px;
+     text-align: left; 
+     line-height: 40px;
+     box-shadow: 5px 5px 10px rgb(141, 138, 138);
+    border: 1px solid #569aff;}
+.con2 ul li span{ 
+    color: #606060;}
+.con2 ul li p{ color: #aeaeae;}
+.con2 li:nth-child(5){ width: 120px;
+    height: 100px;
+    border-radius: 10px;
+    line-height: 90px;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgb(141, 138, 138);
+    background: #569aff;}  
+
+.conInfo2 li{width:450px; 
+     float: left;}
+.conInfo a{color: #f8f8f8;
+}     
+
+.conInfo2 ul li span{ 
+        color: #606060;}
+.conInfo2  ul li p{ color: #aeaeae;} 
+.conInfo2 li:nth-child(3){ width: 120px;
+        height: 100px;
+        border-radius: 10px;
+        line-height: 90px;
+        align-items: center;
+        box-shadow: 5px 5px 10px rgb(141, 138, 138);
+        background: #569aff;}         
+.con3_text{ margin: 0 auto;
+    width: 400px; height: 80px;
+    border-radius: 10px;
+     text-align: left; 
+     line-height: 40px;
+     box-shadow: 5px 5px 10px rgb(141, 138, 138);
+    border: 1px solid #569aff;}
+
+.conInfo3 ul li {width: 300px; float: left;
+    }   
+.con4_text{ margin: 0 auto;
+    width: 300px; height: 80px;
+    border-radius: 10px;
+     text-align: left; 
+     line-height: 40px;
+     box-shadow: 5px 5px 10px rgb(141, 138, 138);
+    border: 1px solid #569aff;}
+.conInfo4 ul li{width: 400px; float: left;}
+.con5_text{ margin: 0 auto;
+    width: 400px; height: 80px;
+    border-radius: 10px;
+     text-align: left; 
+     line-height: 40px;
+     box-shadow: 5px 5px 10px rgb(141, 138, 138);
+    border: 1px solid #569aff;}
+
+    .conInfo4 li:nth-child(3){ width: 120px;
+        height: 100px;
+        border-radius: 10px;
+        line-height: 90px;
+        box-shadow: 5px 5px 10px rgb(141, 138, 138);
+        align-items: center;
+        background: #569aff;}   
+
+    
+ 
+
+.main02{width: 1200px; height:500px; 
+     margin: 0 auto; }
+.main02 .picture{width: 1200px; height: 500px; 
+    position: relative;}
+.main02 .view{ width: 100%;
+     height: 500px;}
+
+.main02 .view li{ float: left;   box-shadow: 5px 5px 10px black;
+     position: absolute; border-radius: 50px;
+     width: 100% ;height: 500px; top: 0;}
+.main02 .view li:nth-child(1){
+    background: url(./img/church-g09efa3589_1280.jpg); z-index: 400;}
+.main02 .view li:nth-child(2){
+    background: url(./img/hd-wallpaper-g5facf6ea2_1280.jpg); z-index: 300;}
+.main02 .view li:nth-child(3){background-size: cover;
+background: url(./img/travel-g2691c7ebf_1280.jpg); z-index: 200; }
+.main02 .view .view_text1 {width: 500px; 
+    height: 200px; margin: 100px; padding: 1rem;
+    font-family: sans-serif; font-weight: 600;    color: #606060;}
+.main02 .view .view_text1 p{ font-size: 20px;
+text-shadow: 3px 3px 15px white; margin-bottom: 10px;}
+.main02 .view .view_text1 h1{margin-top: 30px;
+text-shadow: 3px 3px 15px white;}
+.main02 .view .view_text1 span{font-size: 40px;
+    color: #606060f1;
+    text-shadow: 3px 3px 30px rgba(0, 0, 0, 0.342);
+                                border-bottom: 5px solid #c01c1c80;}
+
+
+
+
+
+.main02 .view .view_text2 {width: 400px; 
+                            height: 200px; margin: 100px; padding: 1rem;
+                            font-family: sans-serif; font-weight: 600;    color: #f8f8f8;}
+.main02 .view .view_text2 p{ font-size: 25px;
+    text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.5); margin: 10px 0;}
+.main02 .view .view_text2 h1{ font-size: 30px;
+    text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.562);}
+.main02 .view .view_text2 span{font-size: 30px;
+    
+    font-weight: 600;}
+.main02 .view .view_text2 a{display: inline-block;
+    width: 240px; height: 70px; line-height: 70px;
+                border:3px solid #f8f8f8;  text-align: center;
+                font-size: 35px; text-shadow: 3px 3px 15px white;
+            margin-top: 30px; font-family: sans-serif;
+
+            color: #f8f8f8; ;}   
+
+
+.main02 .view .view_text3 {width: 900px; 
+                height: 200px; margin: 100px auto; padding: 1rem;
+                text-align: right;
+                font-family: sans-serif; font-weight: 600;}
+.main02 .view .view_text3 p{ font-size: 25px; margin-top: 10px;
+    color: #25242496; 
+    text-shadow: 3px 3px 15px #ccc;
+            ; margin-bottom: 10px;}
+ .main02 .view .view_text3 h1{ font-size: 35px;
+    text-shadow: 3px 3px 15px #ccc;
+
+    color: #252424a9; 
+           }
+.main02 .view .view_text3 span{font-size: 45px;
+    text-shadow: 3px 3px 15px #ccc;
+
+    color: #252424d5; 
+}
+.main02 .view .view_text3 a{display: inline-block;
+    width: 240px; height: 70px; line-height: 70px;
+             text-align: center;
+                font-size: 35px;
+                border: 2px solid white;
+            margin-top: 30px; font-family: sans-serif;
+            color: rgba(0, 0, 0, 0.562);}   
+            
+
+
+
+.main_2_btn{width: 200px; 
+    position: absolute; left: 40%;      
+    height: 20px; text-align: center;}
+.main_2_btn li{width: 40px; height: 10px;background-color: rgb(88, 79, 79);
+     display: inline-block; margin:20px 0 0 20px; border-radius: 5px;
+        cursor: pointer;}
+.main_2_btn li.on{width: 20px; background-color: #569aff;
+    transition: all 1s;}
+
+
+
+.main03{width: 1200px; margin: 0 auto; height: 700px;
+        }
+.main03_title{   height: 70px;     color: #606060;
+                    line-height: 70px;
+    text-align: center;}
+.main03 li{cursor: pointer;}
+.main03_view{width: 1150px; height: 450px;
+                position: relative;  overflow: hidden;
+              }    
+.main03_info{width: 2300px; height: 400px;
+            position: absolute; left: 0; top: 0;}                
+
+.main03_info li{width: 360px; height: 400px; float: left;
+    margin-left: 20px;border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(158, 157, 157);
+    border: 1px solid #ccc;
+position: relative;}
+.main03_info .medal1{width: 60px; height: 50px;
+        background: url(./img/icons8-1st-place-medal-48.png);
+        position: absolute; left: 10px;
+        top: -10px;} 
+.main03_info .medal2{width: 60px; height: 50px;
+            background: url(./img/icons8-2nd-place-medal-48.png);
+            position: absolute; left: 10px;
+            top: -10px;}
+.main03_info .medal3{width: 60px; height: 50px;
+                background: url(./img/icons8-3rd-place-medal-48.png);
+                position: absolute; left: 10px;
+                top: -10px;}      
+.main03_info .medal4{width: 60px; height: 50px;
+                    background: url(./img/icons8-sports-medal-48\ \(1\).png);
+                    position: absolute; left: 10px;
+                    top: -10px;}                                            
+.main03 li img{width: 360px; height: 270px;
+                border-radius: 15px;
+                box-shadow: 5px 5px 15px rgb(63, 62, 62);
+                margin-bottom: 15px;}
+.main03_info li p{margin:10px;
+    color: #606060;
+    font-weight: 400;}
+.main03_info li span{margin: 20px 10px 10px 10px;
+            color: black;
+            font-weight: bold;}
+
+
+
+.main03_btn{ text-align: center;}
+.main03_btn li{width: 50px; height: 10px; margin-left: 10px;
+    border-radius: 5px;
+             display: inline-block; background-color: rgb(88, 79, 79);
+              }
+.main03_btn li.on{background-color: #569aff;}
+
+
+
+.main04{width: 1200px; height: 400px; 
+    margin: 0 auto;}    
+.main04 li{cursor: pointer;}
+
+.main04_title{height: 70px;
+         color: #606060;
+        line-height: 70px;
+text-align: center;}
+.main04_view{width: 1150px; height: 450px;
+            position: relative; overflow: hidden;}
+.main04 figure{}
+.main04_info{width: 2300px; height: 400px;
+            position: absolute; left: 0; top:0;}
+
+.main04_info li{width: 360px; height: 400px; float: left;
+margin-left: 20px;border-radius: 15px; 
+box-shadow: 5px 5px 15px rgb(158, 157, 157);
+position: relative;
+border: 1px solid #ccc;
+}
+.main04 li img{width: 360px; border-radius: 15px;
+     height: 270px; margin-bottom: 15px;
+     box-shadow: 5px 5px 15px rgb(63, 62, 62);}
+.main04_info li p{margin:10px;
+color: #606060;
+font-weight: 400;}
+.main04_info li span{ margin: 20px 10px 10px 10px;
+color: black;
+font-weight: bold;}
+.main04_info .medal1{width: 60px; height: 50px;
+    background: url(./img/icons8-1st-place-medal-48.png);
+    position: absolute; left: 10px;
+    top: -10px;} 
+.main04_info .medal2{width: 60px; height: 50px;
+        background: url(./img/icons8-2nd-place-medal-48.png);
+        position: absolute; left: 10px;
+        top: -10px;}
+.main04_info .medal3{width: 60px; height: 50px;
+            background: url(./img/icons8-3rd-place-medal-48.png);
+            position: absolute; left: 10px;
+            top: -10px;}      
+.main04_info .medal4{width: 60px; height: 50px;
+                background: url(./img/icons8-sports-medal-48\ \(1\).png);
+                position: absolute; left: 10px;
+                top: -10px;}                                            
+
+
+
+.main04_btn{ text-align: center;}
+.main04_btn li{width: 50px; height: 10px; margin-left: 10px;
+    border-radius: 5px;
+    display: inline-block; background-color: rgb(88, 79, 79);}
+.main04_btn li.on{background-color: #569aff;}
+
+
+.main05{width: 1200px; height: 100vh; 
+            margin: 0 auto; }
+.main05 .main05_info {}
+.main05 .main05_info h1{text-align: center;
+    color: #606060;}
+.main05 .main05 ul{text-align: center;}
+.main05 .main05_info li{width: 370px; height: 360px;
+                        border-radius: 15px; position: relative;     
+                        float: left;
+                        margin:10px 0 0 20px;
+                        box-shadow: 5px 5px 15px rgb(63, 62, 62);
+                        cursor: pointer;
+                      }
+.main05 .main05_info li::before{content: "";
+                                opacity: 0.4;
+                                position: absolute;
+                                top: 0px;
+                                left: 0px;
+                                right: 0px;
+                                bottom: 0px;
+                                border-radius: 15px;
+                                background-color: #000;}                                    
+
+.main05 .main05_info li:nth-child(1){background: url(./img/main0501.jpg);
+                                    background-size: cover;
+                                    }
+.main05 .main05_info li:nth-child(2){background: url(./img/main0502.jpg);
+    background-size: cover;
+    }
+.main05 .main05_info li:nth-child(3){background:url(./img/main0503.jpg);
+    background-size: cover;}
+.main05 .main05_info li:nth-child(4){background: url(./img/main0504.jpg);
+    background-size: cover;}
+.main05 .main05_info li:nth-child(5){background:url(./img/main0505.jpg);
+    background-size: cover; background-position: center;}
+.main05 .main05_info li:nth-child(6){background: url(./img/main0506.jpg);
+    background-size: cover;}
+.main05 .main05_text{ position: absolute;
+    width: 100%; bottom: 30px;
+    color: #f8f8f8; margin-left: 20px;}
+
+.main05 .main05_text h2{margin-top: 10px;}
+.main05 .main05_text p{}
+
+
+     
+footer{width: 1200px; margin: 0 auto;
+                    color: #606060;
+                    margin-top: 100px;
+    height: 300px;
+    font-size: 12px;
+    border-top: 1px solid #606060;;
+            }
+footer .footer_text{width: 1100px; margin: 0 auto;
+                        height: 300px;}
+footer .footer_text p{margin: 20px;}
+footer .footer_text span{padding: 20px;}
+
+
+
+@media screen and (max-width: 1200px){
+    #wrap{width: 100%;}
+    .header_in{width:100%;}
+    .header_in .logo{width:12.5%;}
+    nav{width:75%;}
+    nav ul{width: 100%;}
+    nav li{width:12.5%; line-height: 50px;}
+    .login{width: 100%;}
+    .login .help{width: 100%;}
+    .login .help2{width: 100%;}
+    .login a{margin-left: 0.4%;
+                font-size: 12px;}
+    .main01{width: 100%;}
+    .main01 .conBox1 li{}
+    .con2 .con2_text{margin-top: 2%;}
+    .conInfo2 li{ margin-top: 3%;}
+    .con4_text{margin-top: 3%;}
+    .con5_text{margin-top: 3%;}
+    .main02{width: 100%;}
+    .main02 .picture{width: 100%;}
+    .main02 .view{width: 100%;}
+    .main02 .view .view_text3{width: 75%;}
+    
+    .main03{width: 100%;}
+    .main03_view{width: 100%;}
+    .main05{width: 100%;}
+    .main04{width: 100%;}
+    .main04_view{width: 100%;}
+    footer{margin-top: 10%;}
+    .main05{width: 100%; height: 700px;}
+    .main05 .main05_info li{width: 30%; height: 320px;
+    float: left;}
+    footer{width: 100%; height: 300px;}
+    footer .footer_text{width: 100%; height: 300px;}
+}
+
+@media screen and (max-width: 850px){
+    .con2 li:nth-child(5){width: 58%;
+                            margin-top: 1%;}
+    .conInfo2 li:nth-child(3){width: 52%;}
+    .conInfo3 li:nth-child(5){width:40%;
+                            margin-top: 1%;}
+    .conInfo4 li:nth-child(3){width: 51%;
+                                margin-top: 1%;}
+    .main03{width: 100%; height: 640px; }
+    .main03_view{width: 100%; height: 640px;
+                   }
+    .main03_info{width: 100%;}
+    .main03_info li img{width: 100%; height: 150px;}
+    .main03_info li{width: 25%; height: 300px;
+    margin-bottom: 1%;}
+    .main03_info p{margin: 1%;}
+    .main03_btn{display: none;}
+
+    .main04_btn{display: none;}
+    .main04{width: 100%;height: 640px;}
+    .main04_view{width: 100%; height: 640px;}
+    .main04_info{width: 100%;}
+    .main04_info li img{width: 100%; height: 150px;}
+    .main04_info li{width: 25%; height: 300px;
+    margin-bottom: 1%;}
+    .main04_info p{margin: 1%;}
+
+    .main05{width: 100%; height: 700px;}
+    .main05 .main05_info li{width: 30%; height: 320px;
+    float: left;}
+    footer{width: 100%; height: 300px;}
+    footer .footer_text{width: 100%; height: 300px;}
+}
+@media screen and (max-width: 450px){
+    .header_in {width: 100%; margin: 0 auto;}
+    .header_in .logo{width:15%;}
+    nav{width:60%;}
+    nav li{width: 16.5%;}
+    .login{width:100%;
+         height: 60px;}
+    .login .help{width: 100%; height: 20px; }
+    .login .help2{width: 100%; height: 40px;}
+    .main01{width: 100%; height: 700px;}
+    .main01 .conBox1 li img{width: 27%;
+                            height: 27%;}
+    .main01 .conBox1 li{width:33%; height: 30%;}
+    .main01 .conBox1 li:nth-child(5){ width: 33%; height: 30%;
+        margin: 0 20%;}
+
+
+    .conInfo1 li{width: 100%; margin: 0;}
+    .con2 .con2_text{width: 80%; margin: 1% 10%;}
+    .conInfo2 li{ margin-top: 3%;
+                    width: 100%;}
+    .con3_text{width: 80%;}
+    .conInfo2 li:nth-child(3){width: 87%;
+                                margin: 5% 10%;}
+    .conInfo1 li:nth-child(5){ width: 65%;
+        margin: 1% 10%}
+
+    .conInfo3 li:nth-child(5){width:100%;}
+    .conInfo3{margin: 1% 10%;}
+    .conInfo4 li{width: 90%;}
+    .conInfo4 .con5_text{width: 100%;}
+    .conInfo4 li:nth-child(3){width: 95%; margin: 5% 5%;}
+    
+    .conInfo5 li{width: 80%;}
+    .conInfo5 .con2_text{width: 100%;}
+    .conInfo5 li:nth-child(5){width: 85%; margin: 5% 12%;}
+
+
+    #main02_img{display: none; height: 0;}
+    .main02{height: 0; display: none;}
+    .main03{width: 100%; height: 640px; }
+    .main03_view{width: 100%; height: 640px;
+                   }
+    .main03_info{width: 100%;}
+    .main03_info li img{width: 100%; height: 100px;}
+    .main03_info li{width: 28%; height: 240px;
+    margin-bottom: 1%;}
+    .main03_info p{margin: 1%; font-size: 12px;}
+
+    .main04{width: 100%; height: 640px; }
+    .main04_view{width: 100%; height: 640px;
+                   }
+    .main04_info{width: 100%;}
+    .main04_info li img{width: 100%; height: 100px;}
+    .main04_info li{width: 28%; height: 240px;
+    margin-bottom: 1%;}
+    .main04_info p{margin: 1%; font-size: 12px;}
+    
+    .main05{width: 100%; height: 500px;}
+    .main05 .main05_info li{width: 40%; height: 220px;
+    float: left;}
+    .main05 .main05_text{width: 100%; margin-left: 5%; }
+    .main05 .main05_info h2{font-size: 15px;}
+    
+    .main05 .main05_info p{font-size: 10px;}
+
+    footer{width: 100%; height: 300px;}
+    footer .footer_text{width: 100%; height: 300px;}
+}
+
+
+
+@media screen and (max-width: 380px){
+    section{height: 850px;}
+    .header_in {width: 100%; margin: 0 auto;}
+    .header_in .logo{width:10%; font-size: 10px; line-height:50px}
+    nav{width:60%;}
+    
+    nav li{width: 16.5%;}
+    nav li a {font-size: 10px;}
+    .login{width: 100%;}
+    .login{width:100%;
+        height: 55px;}
+   .login .help{width: 100%; height: 15px; }
+   .login .help a{font-size: 2px;}
+   .login .help2{width: 100%; height: 40px;}
+   .login .help2 a{font-size: 7px;}
+   .conInfo1 li:nth-child(5){ width: 85%;
+    margin: 1% 10%}
+   .conInfo3 li {margin: 0 auto;}
+   .conInfo3 li:nth-child(5){width:100%; 
+                            margin: 5% 5%;}
+    .main03{width: 100%; height: 850px;  }
+    .main03_view{width: 100%; height: 850px;
+                                           }
+   .main03_info{width: 100%;}
+    .main03_info li img{width: 100%; height: 100px;}
+    .main03_info li{width: 40%; height: 240px;
+        margin-bottom: 1%;}
+
+        .main04{width: 100%; height: 850px;}
+        .main04_view{width: 100%; height: 850px;
+                                               }
+       .main04_info{width: 100%;}
+        .main04_info li img{width: 100%; height: 100px;}
+        .main04_info li{width: 40%; height: 240px;
+            margin-bottom: 1%;}
+
+    .main05{width: 100%; height: 850px; margin-top: 10%;}
+    .main05 .main05_info li{width: 40%; height: 220px;
+            float: left;}
+    .main05 .main05_text{width: 100%; margin-left: 5%; }
+    .main05 .main05_info h2{font-size: 15px;}
+            
+    .main05 .main05_info p{font-size: 10px;}
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 360px){
+    section{height: 800px; background-color: #000;}
+    .header_in {width: 100%; margin: 0 auto;}
+    .header_in .logo{width:10%; font-size: 10px; line-height:50px}
+    nav{width:60%;}
+    
+    nav li{width: 16.5%;}
+    nav li a {font-size: 10px;}
+    .login{width: 100%;}
+    .login{width:100%;
+        height: 55px;}
+   .login .help{width: 100%; height: 15px; }
+   .login .help a{font-size: 2px;}
+   .login .help2{width: 100%; height: 40px;}
+   .login .help2 a{font-size: 7px;}
+   .conInfo1 li:nth-child(5){ width: 85%;
+    margin: 1% 10%}
+   .conInfo3 li {margin: 0 auto;}
+   .conInfo3 li:nth-child(5){width:100%; 
+                            margin: 5% 5%;}
+    .main03{width: 100%; height: 850px;  }
+    .main03_view{width: 100%; height: 850px;
+                                           }
+   .main03_info{width: 100%;}
+    .main03_info li img{width: 100%; height: 100px;}
+    .main03_info li{width: 40%; height: 240px;
+        margin-bottom: 1%;}
+
+        .main04{width: 100%; height: 850px;}
+        .main04_view{width: 100%; height: 850px;
+                                               }
+       .main04_info{width: 100%;}
+        .main04_info li img{width: 100%; height: 100px;}
+        .main04_info li{width: 40%; height: 240px;
+            margin-bottom: 1%;}
+
+    .main05{width: 100%; height: 850px; margin-top: 10%;}
+    .main05 .main05_info li{width: 40%; height: 220px;
+            float: left;}
+    .main05 .main05_text{width: 100%; margin-left: 5%; }
+    .main05 .main05_info h2{font-size: 15px;}
+            
+    .main05 .main05_info p{font-size: 10px;}
+
+
+
+}
